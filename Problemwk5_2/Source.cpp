@@ -5,7 +5,7 @@ int main() {
 	int i = 0, factset = 0;
 	int fact;
 	long factoutput = 1;
-	printf("Enter the number (n!) : ");
+	printf("Enter a number (n!) : ");
 	scanf_s("%s", num, sizeof(num));
 	while (i < strlen(num)) {
 		if (num[i] >= '0' && num[i] <= '9') {
